@@ -23,7 +23,7 @@ collections:
           widget: 'relation', 
           collection: 'authors',
           value_field: 'name', 
-          search_fields: 'name'
+          search_fields: ['name']
         }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
